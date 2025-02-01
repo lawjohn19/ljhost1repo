@@ -1,7 +1,5 @@
-character_name = "Lawrence"
-character_age = "51"
+a = 2
+b = 3
 
-print("my name is" + character_name + "I look good")
-
-print("I am" + character_age + "still trucking")
+print(a + b)
 
