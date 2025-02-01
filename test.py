@@ -1,11 +1,5 @@
-import random
+character_name = "Lawrence"
+character_age = "51"
+print("my name is" + character_name + "I look good")
+print("I am" + character_age + "still trucking")
 
-def word_search():
-    words = ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grape', 'honeydew', 'kiwi', 'lemon', 'mango', 'nectarine', 'orange', 'pear', 'quince', 'raspberry', 'strawberry', 'tangerine', 'watermelon']
-    word = random.choice(words)
-    print('The word is', word)
-    if word in words == False:
-        print('The word is not in the list')
-    else:
-        print('The word is in the list')    
-print(word_search(input('Enter a word: ')))
